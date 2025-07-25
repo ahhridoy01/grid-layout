@@ -29,8 +29,7 @@
 
 @media screen and (max-width:576px) {
     .grid{
-        margin-top: 15px;
-        margin-left: 15px;
+        margin: 0px auto;
         grid-template-columns: 1fr;
         flex-direction: column;
     }
@@ -43,7 +42,8 @@
 }
 .img-ana , .img-bloom, .span-zabo{
     max-width: 367px;
-    max-height: 201px;
+    max-height: 250px;
 }
     
 }
+
